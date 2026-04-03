@@ -1,0 +1,100 @@
+{
+  "id": "lvl_003",
+  "title": "La Habitación Sin Eco",
+  "genre": "Mystery / Suspense",
+  "description": "Una llamada anónima lleva a la detective Lena Vargas a un antiguo edificio de apartamentos. Lo que encuentra en la habitación 307 desafía toda lógica.",
+  
+  "chapters": [
+    {
+      "id": "ch1",
+      "type": "story",
+      "text": "La llamada entró a las 2:47 a.m. Una voz distorsionada dijo solo: \"Habitacion 307. Solo tú entenderás lo que pasó\". Luego colgó. Ahora estás frente al viejo edificio residencial 'El Alba', abandonado desde hace 8 años.",
+      "image": "assets/images/lvl3_ch1.jpg",
+      "sound": "assets/sounds/ambient_rain.mp3",
+      "image_prompt": "Edificio antiguo abandonado de noche bajo lluvia intensa, luces rotas, atmósfera oscura y misteriosa, estilo cinematográfico, tonos azules y negros"
+    },
+    {
+      "id": "ch2",
+      "type": "story",
+      "text": "El ascensor no funciona. Subes por las escaleras. Cada paso produce un eco extraño… excepto cuando llegas al tercer piso. Allí el silencio es absoluto. Como si el sonido hubiera sido absorbido.",
+      "image": "assets/images/lvl3_ch2.jpg",
+      "sound": "assets/sounds/tension_low.mp3",
+      "image_prompt": "Escaleras oscuras y deterioradas de un edificio abandonado, luz tenue de una linterna, atmósfera inquietante"
+    },
+    {
+      "id": "ch3",
+      "type": "story",
+      "text": "La puerta de la habitación 307 está entreabierta. Un olor extraño, dulce y metálico, sale desde dentro. Empujas la puerta lentamente.",
+      "image": "assets/images/lvl003_ch3.jpg",
+      "sound": "assets/sounds/door_creak.mp3",
+      "image_prompt": "Puerta entreabierta de apartamento antiguo, luz cálida saliendo desde dentro, oscuridad total en el pasillo, estilo terror psicológico"
+    },
+    {
+      "id": "ch4",
+      "type": "input",
+      "text": "Entras a la habitación. Todo está perfectamente ordenado, como si alguien aún viviera aquí. En el centro de la sala hay un sillón antiguo y sobre él… algo que te hiela la sangre. ¿Qué ves?",
+      "image": "assets/images/lvl3_ch4.jpg",
+      "sound": "assets/sounds/tension_high.mp3",
+      "hint_text": "Está sentado… pero no se mueve. Lleva mucho tiempo así.",
+      "interaction": {
+        "expected": ["un cuerpo", "un cadáver", "una persona muerta", "un muerto"],
+        "semantic_variations": ["un hombre muerto", "una mujer muerta", "un cadáver sentado", "alguien fallecido", "un cuerpo sin vida"],
+        "keywords": {
+          "main": ["cuerpo", "cadáver", "muerto", "muerta"],
+          "secondary": ["sillón", "sentado", "quieto", "inmóvil"]
+        }
+      },
+      "feedback": {
+        "perfect": "Correcto. Un hombre mayor está sentado en el sillón, con los ojos muy abiertos, mirando al vacío. No hay sangre. No hay signos de lucha.",
+        "correct": "Sí, hay un cuerpo. Está sentado como si esperara a alguien… o a algo.",
+        "close": "Mira con atención el centro de la habitación. Hay algo en el sillón.",
+        "wrong": "Observa mejor. Hay algo en el centro de la sala que no debería estar ahí."
+      }
+    },
+    {
+      "id": "ch5",
+      "type": "story",
+      "text": "El hombre es el Dr. Rafael Mendoza, un reconocido psiquiatra que desapareció hace 7 años. Su cuerpo está perfectamente conservado, como si hubiera muerto hace solo unas horas. En su mano izquierda sostiene un reloj de bolsillo detenido a las 3:17.",
+      "image": "assets/images/lvl3_ch5.jpg",
+      "sound": "assets/sounds/tension_low.mp3",
+      "image_prompt": "Hombre mayor muerto sentado en un sillón antiguo, iluminación dramática, estilo realista oscuro"
+    },
+    {
+      "id": "ch6",
+      "type": "input",
+      "text": "Sobre la mesa hay tres fotos idénticas de una niña sonriendo. En la pared, escrito con lo que parece lápiz labial rojo: \"Ella nunca se fue\". ¿Qué crees que significa esto?",
+      "image": "assets/images/lvl3_ch6.jpg",
+      "sound": "assets/sounds/tension_high.mp3",
+      "hint_text": "El psiquiatra tenía una hija que desapareció hace muchos años.",
+      "interaction": {
+        "expected": ["su hija", "la niña de las fotos", "su hija desaparecida"],
+        "semantic_variations": ["la niña", "su hija muerta", "la hija", "ella es la niña"],
+        "keywords": {
+          "main": ["hija", "niña", "fotos"],
+          "secondary": ["desaparecida", "fantasma"]
+        }
+      },
+      "feedback": {
+        "perfect": "Exacto. Se trata de su hija, Valeria, quien desapareció en 2017. El doctor nunca superó su pérdida.",
+        "correct": "Tiene que ver con su hija. La niña de las fotos.",
+        "close": "Piensa en quién es \"Ella\".",
+        "wrong": "La frase se refiere a alguien muy importante para el doctor."
+      }
+    },
+    {
+      "id": "ch7",
+      "type": "story",
+      "text": "Al revisar el escritorio encuentras una grabadora antigua. Presionas play. La voz del doctor dice: \"Si estás escuchando esto… significa que ya estoy muerto. Y ella finalmente vino por mí.\"",
+      "image": "assets/images/lvl3_ch7.jpg",
+      "sound": "assets/sounds/voice_recording.mp3",
+      "image_prompt": "Grabadora antigua sobre un escritorio viejo, habitación oscura"
+    }
+  ],
+  
+  "ending": {
+    "text": "La Habitación Sin Eco guarda sus secretos. El Dr. Mendoza esperó durante años a su propia culpa. Ahora tú tienes el reloj detenido a las 3:17 y una pregunta que no te deja en paz: ¿realmente murió de miedo… o algo más lo visitó esa noche?",
+    "image": "assets/images/lvl3_end.jpg",
+    "sound": "assets/sounds/ending_suspense.mp3",
+    "image_prompt": "Detective de espaldas mirando una habitación oscura con un reloj en la mano, atmósfera misteriosa y sombría"
+  }
+}
