@@ -1,0 +1,100 @@
+{
+  "id": "lvl_004",
+  "title": "El Último Acto",
+  "genre": "Mystery / Suspense",
+  "description": "Una antigua carta llega al teatro abandonado 'Gran Imperial'. Alguien invita a la detective Lena Vargas a presenciar la última función... de una obra que terminó hace 27 años.",
+  
+  "chapters": [
+    {
+      "id": "ch1",
+      "type": "story",
+      "text": "La carta, escrita a máquina en papel amarillento, solo decía: \"La función comienza a medianoche. Asiento 13, fila 5. No llegues tarde. Te están esperando.\" Firmada por 'El Director'.",
+      "image": "assets/images/lvl4_ch1.jpg",
+      "sound": "assets/sounds/ambient_rain.mp3",
+      "image_prompt": "Old abandoned grand theater at night, exterior view with broken neon sign 'Gran Imperial', dramatic lighting, cinematic horror style"
+    },
+    {
+      "id": "ch2",
+      "type": "story",
+      "text": "Las pesadas puertas de madera se abren con un largo quejido. El vestíbulo está lleno de polvo y telarañas. Sin embargo, las luces del escenario están encendidas, como si la función fuera a comenzar en cualquier momento.",
+      "image": "assets/images/lvl4_ch2.jpg",
+      "sound": "assets/sounds/tension_low.mp3",
+      "image_prompt": "Dark dusty theater lobby with old chandeliers and red carpets, dim golden lighting, abandoned but elegant atmosphere"
+    },
+    {
+      "id": "ch3",
+      "type": "story",
+      "text": "Te sientas en el asiento 13 de la fila 5. El teatro está completamente vacío… excepto por una figura vestida de negro en el centro del escenario.",
+      "image": "assets/images/lvl4_ch3.jpg",
+      "sound": "assets/sounds/curtain_open.mp3",
+      "image_prompt": "Empty old theater from audience view, single spotlight on stage with a mysterious figure in black, dramatic and eerie"
+    },
+    {
+      "id": "ch4",
+      "type": "input",
+      "text": "La figura levanta la cabeza. Es una mujer con maquillaje teatral exagerado. Te mira fijamente y dice: \"Bienvenida, detective. ¿Sabes cuál es el papel que te corresponde esta noche?\" ¿Qué le respondes?",
+      "image": "assets/images/lvl4_ch4.jpg",
+      "sound": "assets/sounds/tension_high.mp3",
+      "hint_text": "Ella cree que esto es una obra de teatro y tú tienes un rol específico.",
+      "interaction": {
+        "expected": ["la detective", "soy la detective", "mi papel es detective", "investigadora"],
+        "semantic_variations": ["detective", "investigadora", "la que investiga", "la protagonista"],
+        "keywords": {
+          "main": ["detective", "investigadora", "papel"],
+          "secondary": ["rol", "personaje", "obra"]
+        }
+      },
+      "feedback": {
+        "perfect": "La actriz sonríe siniestramente. \"Correcto. Esta noche tú eres la detective... y también la próxima víctima.\"",
+        "correct": "Ella asiente satisfecha. Has entendido que esto es un macabro juego de roles.",
+        "close": "Piensa en qué personaje representas tú en esta obra.",
+        "wrong": "La actriz espera una respuesta concreta sobre tu rol en la obra."
+      }
+    },
+    {
+      "id": "ch5",
+      "type": "story",
+      "text": "La mujer (que se presenta como 'La Dama de Negro') comienza a contar la historia de la última función del teatro en 1997. Esa noche, la actriz principal, Isabella Moreau, fue asesinada en el escenario frente a 300 personas.",
+      "image": "assets/images/lvl4_ch5.jpg",
+      "sound": "assets/sounds/tension_low.mp3",
+      "image_prompt": "Woman in elegant black dress and dramatic theater makeup standing on old stage, spotlight, dark background"
+    },
+    {
+      "id": "ch6",
+      "type": "input",
+      "text": "Sobre el escenario aparece un maniquí vestido con el traje de Isabella Moreau. En su pecho hay una daga clavada y una nota escrita con sangre falsa. ¿Qué dice la nota?",
+      "image": "assets/images/lvl4_ch6.jpg",
+      "sound": "assets/sounds/tension_high.mp3",
+      "hint_text": "Es una acusación directa hacia alguien del público.",
+      "interaction": {
+        "expected": ["tú fuiste", "tú la mataste", "tú eres el culpable"],
+        "semantic_variations": ["tú mataste", "asesino", "tú eres el asesino", "tú la asesinaste"],
+        "keywords": {
+          "main": ["tú", "mataste", "asesino", "culpable"],
+          "secondary": ["ella", "Isabella"]
+        }
+      },
+      "feedback": {
+        "perfect": "\"TÚ LA MATASTE.\" La nota está dirigida directamente a ti. Alguien te está acusando de un crimen que ocurrió hace 27 años.",
+        "correct": "La nota te acusa directamente. Alguien quiere que seas parte de esta historia.",
+        "close": "La nota es una acusación personal y directa.",
+        "wrong": "Lee bien la nota. Es una acusación muy clara."
+      }
+    },
+    {
+      "id": "ch7",
+      "type": "story",
+      "text": "De repente todas las luces se apagan. Cuando vuelven, la Dama de Negro ha desaparecido. En el centro del escenario solo queda una máscara antigua y una llave con la forma de una calavera.",
+      "image": "assets/images/lvl4_ch7.jpg",
+      "sound": "assets/sounds/blackout.mp3",
+      "image_prompt": "Dark theater stage with single mask and skull-shaped key under spotlight, dramatic and mysterious"
+    }
+  ],
+  
+  "ending": {
+    "text": "El telón cae sobre el primer acto. Alguien está recreando el asesinato de Isabella Moreau... y te ha elegido como la nueva protagonista. La llave con forma de calavera quema en tu mano. ¿Qué secretos guarda aún este teatro maldito?",
+    "image": "assets/images/lvl4_end.jpg",
+    "sound": "assets/sounds/ending_suspense.mp3",
+    "image_prompt": "Detective standing alone on dark theater stage holding a skull key, red curtains, dramatic cinematic lighting"
+  }
+}
