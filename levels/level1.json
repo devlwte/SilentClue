@@ -1,0 +1,116 @@
+{
+  "id": "lvl_001",
+  "title": "The Silent Room",
+  "genre": "Mystery / Suspense",
+  "description": "A detective arrives at an abandoned apartment after an anonymous tip. Something terrible happened here.",
+  
+  "chapters": [
+    {
+      "id": "ch1",
+      "type": "story",
+      "text": "The call came at midnight. An anonymous tip about apartment 4B in the old Morrison building. Detective, they said your name specifically. They said only you would understand what happened here.",
+      "image": "assets/images/lvl1_ch1.jpg",
+      "sound": "assets/sounds/ambient_rain.mp3"
+    },
+    {
+      "id": "ch2",
+      "type": "story",
+      "text": "The building looms before you, a relic from another era. Most windows are dark, but apartment 4B... a single light flickers behind the curtains. The front door is unlocked. Someone was expecting you.",
+      "image": "assets/images/lvl1_ch2.jpg",
+      "sound": "assets/sounds/ambient_rain.mp3"
+    },
+    {
+      "id": "ch3",
+      "type": "story",
+      "text": "You climb the creaking stairs to the fourth floor. The hallway stretches before you, lit only by a single dying bulb. Apartment 4B is at the end. The door stands slightly ajar, a thin slice of warm light cutting through the darkness.",
+      "image": "assets/images/lvl1_ch3.jpg",
+      "sound": "assets/sounds/tension_low.mp3"
+    },
+    {
+      "id": "ch4",
+      "type": "input",
+      "text": "You push the door open and step inside. The room is frozen in time—furniture overturned, papers scattered everywhere. In the center of the chaos, illuminated by a desk lamp, lies something that stops you cold. What do you see?",
+      "image": "assets/images/lvl1_ch4.jpg",
+      "sound": "assets/sounds/tension_high.mp3",
+      "hint_text": "The stillness in this room is unnatural. Whatever lies at its center hasn't moved in quite some time.",
+      "interaction": {
+        "expected": ["a body", "a dead body", "a corpse"],
+        "semantic_variations": ["someone dead", "a lifeless body", "a victim", "a dead person", "a dead man", "a dead woman", "the body"],
+        "keywords": {
+          "main": ["body", "dead", "corpse"],
+          "secondary": ["victim", "lifeless", "person", "blood"]
+        }
+      },
+      "feedback": {
+        "perfect": "Your trained eye immediately recognizes what others might miss. A body lies face-down near the overturned desk. This is now a crime scene.",
+        "correct": "You spot the victim. Your instincts are sharp—this investigation has just begun.",
+        "close": "Something is definitely wrong here. Look more carefully at what lies at the center of this chaos.",
+        "wrong": "The scene demands your full attention. What lies in the center of this disturbed room?"
+      }
+    },
+    {
+      "id": "ch5",
+      "type": "story",
+      "text": "A man in his fifties, well-dressed but disheveled. Professor Edmund Cross, according to the university ID beside him. No obvious wounds, but his expression... frozen in terror. His hand clutches a torn photograph.",
+      "image": "assets/images/lvl1_ch5.jpg",
+      "sound": "assets/sounds/tension_low.mp3"
+    },
+    {
+      "id": "ch6",
+      "type": "input",
+      "text": "You carefully examine the photograph in the professor's grip. It shows three people at what appears to be an academic ceremony. One face has been violently torn away. On the back, written in red ink, are three words. What might they say?",
+      "image": "assets/images/lvl1_ch6.jpg",
+      "sound": "assets/sounds/tension_high.mp3",
+      "hint_text": "The words feel like an accusation—someone blaming another for holding onto dangerous knowledge.",
+      "interaction": {
+        "expected": ["you knew everything", "you know everything", "i know everything"],
+        "semantic_variations": ["you know", "knew too much", "you knew", "you knew it all", "knew the truth", "you know the truth"],
+        "keywords": {
+          "main": ["knew", "know", "everything", "truth"],
+          "secondary": ["secret", "liar", "betrayed", "remember"]
+        }
+      },
+      "feedback": {
+        "perfect": "\"YOU KNEW EVERYTHING.\" The accusation burns in red ink. Someone blamed the professor for keeping secrets—deadly secrets.",
+        "correct": "The message speaks of knowledge and accusation. Someone held the professor responsible for what he knew.",
+        "close": "The words carry weight and accusation. Think about what someone might say to a person they blame...",
+        "wrong": "The message is personal, accusatory. What would someone write to a person they hold responsible?"
+      }
+    },
+    {
+      "id": "ch7",
+      "type": "story",
+      "text": "You notice the professor's desk. Unlike the rest of the room, it seems deliberately arranged. A single drawer hangs open, empty except for a brass key and a newspaper clipping from 1987: \"University Research Team Makes Breakthrough Discovery.\" The article mentions three names.",
+      "image": "assets/images/lvl1_ch7.jpg",
+      "sound": "assets/sounds/ambient_dark.mp3"
+    },
+    {
+      "id": "ch8",
+      "type": "input",
+      "text": "The brass key is old, ornate—clearly not for any modern lock. Engraved on its head is a symbol you recognize from your own past: the emblem of St. Catherine's Church, abandoned since the fire of 1992. Where do you think this key leads?",
+      "image": "assets/images/lvl1_ch8.jpg",
+      "sound": "assets/sounds/tension_low.mp3",
+      "hint_text": "The engraving tells you exactly where this key belongs—a sacred place that burned long ago.",
+      "interaction": {
+        "expected": ["the church", "st catherines", "st catherines church", "the old church", "saint catherines"],
+        "semantic_variations": ["abandoned church", "church basement", "church crypt", "st catherine", "cathedral", "chapel"],
+        "keywords": {
+          "main": ["church", "catherine", "chapel"],
+          "secondary": ["basement", "crypt", "vault", "sanctuary", "abandoned"]
+        }
+      },
+      "feedback": {
+        "perfect": "St. Catherine's. The burned church on Elm Street. Whatever the professor discovered, its secrets are buried there.",
+        "correct": "A church, yes. The key's origin points to a place of supposed sanctuary that may hold darker truths.",
+        "close": "The symbol guides you toward a place of worship. But which one, and what waits there?",
+        "wrong": "Look at the symbol again. It speaks of a sacred place, long abandoned..."
+      }
+    }
+  ],
+  
+  "ending": {
+    "text": "The Silent Room has given up its first secrets, but the mystery deepens. Professor Cross died clutching evidence of a conspiracy decades old. The key to St. Catherine's burns in your pocket. Three people in a photograph—one erased, one dead, and one... still out there. The truth lies buried beneath burned timbers and forgotten sins. Your investigation is just beginning.",
+    "image": "assets/images/lvl1_end.jpg",
+    "sound": "assets/sounds/ending_suspense.mp3"
+  }
+}
