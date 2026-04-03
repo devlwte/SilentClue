@@ -1,122 +1,122 @@
 {
   "id": "lvl_002",
-  "title": "Beneath the Ashes",
+  "title": "Bajo las Cenizas",
   "genre": "Mystery / Suspense",
-  "description": "The investigation continues. St. Catherine's Church holds secrets buried for decades. What really happened the night of the fire?",
+  "description": "La investigación continúa. La Iglesia de Santa Catalina guarda secretos enterrados durante décadas. ¿Qué sucedió realmente la noche del incendio?",
   
   "chapters": [
     {
       "id": "ch1",
       "type": "story",
-      "text": "Dawn breaks over Millbrook as you stand before the ruins of St. Catherine's Church. Thirty-four years ago, a fire consumed this place. Three people died. The official report said electrical failure. But Professor Cross knew the truth—and it killed him.",
+      "text": "El amanecer se abre paso sobre Millbrook mientras te encuentras frente a las ruinas de la Iglesia de Santa Catalina. Hace treinta y cuatro años, un incendio consumió este lugar. Tres personas murieron. El informe oficial habló de un fallo eléctrico. Pero el profesor Cross conocía la verdad… y esa verdad lo mató.",
       "image": "assets/images/lvl2_ch1.jpg",
       "sound": "assets/sounds/ambient_wind.mp3"
     },
     {
       "id": "ch2",
       "type": "story",
-      "text": "The brass key feels heavy in your hand. The main entrance is sealed with modern locks, but you remember the old groundskeeper's entrance on the north side. Overgrown with ivy, forgotten by time. The key slides in perfectly.",
+      "text": "La llave de latón se siente pesada en tu mano. La entrada principal está sellada con candados modernos, pero recuerdas la antigua entrada del cuidador en el lado norte. Cubierta de hiedra y olvidada por el tiempo. La llave entra perfectamente.",
       "image": "assets/images/lvl2_ch2.jpg",
       "sound": "assets/sounds/ambient_wind.mp3"
     },
     {
       "id": "ch3",
       "type": "input",
-      "text": "Inside, the air is thick with dust and memory. Shafts of morning light pierce through gaps in the collapsed roof. The altar still stands, blackened but defiant. Beneath it, you notice the stone floor has been disturbed recently. Fresh scratches mark the tiles. What do you think lies beneath?",
+      "text": "Dentro, el aire está cargado de polvo y recuerdos. Rayos de luz matutina atraviesan los huecos del techo derrumbado. El altar aún permanece en pie, ennegrecido pero desafiante. Debajo de él, notas que el suelo de piedra ha sido removido recientemente. Hay arañazos frescos en las baldosas. ¿Qué crees que hay debajo?",
       "image": "assets/images/lvl2_ch3.jpg",
       "sound": "assets/sounds/tension_low.mp3",
-      "hint_text": "Old churches often have more than one level. The scratches suggest someone has been accessing something concealed.",
+      "hint_text": "Las iglesias antiguas suelen tener más de un nivel. Los arañazos sugieren que alguien ha estado accediendo a algo oculto.",
       "interaction": {
-        "expected": ["a hidden passage", "a secret room", "a basement", "stairs", "a tunnel"],
-        "semantic_variations": ["hidden door", "secret passage", "underground room", "cellar", "crypt", "underground passage", "a trapdoor", "secret entrance"],
+        "expected": ["un pasadizo oculto", "una habitación secreta", "un sótano", "unas escaleras", "un túnel"],
+        "semantic_variations": ["puerta oculta", "pasaje secreto", "habitación subterránea", "cripta", "entrada secreta", "trampilla"],
         "keywords": {
-          "main": ["hidden", "secret", "passage", "underground", "basement"],
-          "secondary": ["door", "stairs", "tunnel", "crypt", "cellar", "trapdoor"]
+          "main": ["oculto", "secreto", "pasadizo", "subterráneo", "sótano"],
+          "secondary": ["puerta", "escaleras", "túnel", "cripta", "trampilla"]
         }
       },
       "feedback": {
-        "perfect": "Your instincts serve you well. Beneath the altar lies a concealed entrance—a passage that the fire couldn't reach.",
-        "correct": "Something lies beneath this sacred ground. The scratches tell of recent visitors to a place meant to stay buried.",
-        "close": "You sense there's more to this floor than meets the eye. Think about what churches often hide...",
-        "wrong": "The scratches are deliberate, purposeful. Someone has been moving these stones to reach something below."
+        "perfect": "Tus instintos no te fallan. Debajo del altar hay una entrada oculta: un pasadizo que el incendio no pudo alcanzar.",
+        "correct": "Algo yace bajo este suelo sagrado. Los arañazos hablan de visitantes recientes a un lugar que debería permanecer enterrado.",
+        "close": "Sientes que este suelo esconde algo más. Piensa en lo que suelen ocultar las iglesias antiguas...",
+        "wrong": "Los arañazos son deliberados. Alguien ha estado moviendo estas piedras para llegar a algo que está debajo."
       }
     },
     {
       "id": "ch4",
       "type": "story",
-      "text": "You shift the altar stone to reveal worn steps descending into darkness. Your flashlight cuts through decades of shadow. The underground chamber is remarkably preserved—file cabinets line the walls, and a long table sits in the center, covered in documents.",
+      "text": "Desplazas la piedra del altar y revelas unas escaleras desgastadas que descienden hacia la oscuridad. Tu linterna corta décadas de sombras. La cámara subterránea está sorprendentemente bien conservada: archivadores cubren las paredes y una larga mesa ocupa el centro, repleta de documentos.",
       "image": "assets/images/lvl2_ch4.jpg",
       "sound": "assets/sounds/ambient_dark.mp3"
     },
     {
       "id": "ch5",
       "type": "story",
-      "text": "The documents tell a disturbing story. Project Synthesis—a university research initiative from 1985. Professor Cross, Dr. Helen Marsh, and Dr. Victor Kane. Human trials. Experimental treatments. And subjects who never returned to their families.",
+      "text": "Los documentos cuentan una historia perturbadora. Proyecto Síntesis: una iniciativa de investigación universitaria de 1985. El profesor Cross, la Dra. Helen Marsh y el Dr. Victor Kane. Ensayos con humanos. Tratamientos experimentales. Y sujetos que nunca regresaron con sus familias.",
       "image": "assets/images/lvl2_ch5.jpg",
       "sound": "assets/sounds/tension_high.mp3"
     },
     {
       "id": "ch6",
       "type": "input",
-      "text": "Among the papers, you find a patient list. Twenty-three names, all crossed out except one. The final entry is circled in red, with a note: \"Subject survived. Memory intact. CONTAIN.\" The name is familiar—someone still living in Millbrook. Who might survive such experiments and still be among us?",
+      "text": "Entre los papeles encuentras una lista de pacientes. Veintitrés nombres, todos tachados excepto uno. La última entrada está rodeada en rojo con una nota: \"Sujeto sobrevivió. Memoria intacta. CONTENER.\" El nombre te resulta familiar: alguien que aún vive en Millbrook. ¿Quién podría haber sobrevivido a tales experimentos y seguir entre nosotros?",
       "image": "assets/images/lvl2_ch6.jpg",
       "sound": "assets/sounds/tension_high.mp3",
-      "hint_text": "Someone who lived through the horror now walks among us. What would drive a person who remembers everything?",
+      "hint_text": "Alguien que vivió el horror ahora camina entre nosotros. ¿Qué impulsaría a una persona que lo recuerda todo?",
       "interaction": {
-        "expected": ["a witness", "a survivor", "the killer", "someone seeking revenge"],
-        "semantic_variations": ["a victim", "test subject", "patient", "someone who remembers", "person seeking justice", "avenger"],
+        "expected": ["un testigo", "un superviviente", "el asesino", "alguien buscando venganza"],
+        "semantic_variations": ["una víctima", "sujeto de prueba", "paciente", "alguien que recuerda", "persona buscando justicia", "vengador"],
         "keywords": {
-          "main": ["survivor", "witness", "victim", "revenge"],
-          "secondary": ["patient", "subject", "killer", "avenger", "remembers"]
+          "main": ["superviviente", "testigo", "víctima", "venganza"],
+          "secondary": ["paciente", "sujeto", "asesino", "vengador", "recuerda"]
         }
       },
       "feedback": {
-        "perfect": "A survivor. Someone who endured their experiments, remembered everything, and waited decades for justice. Or revenge.",
-        "correct": "Someone who lived through the horror and carries the truth. A dangerous witness with unfinished business.",
-        "close": "Think about who would have motivation to expose this after all these years...",
-        "wrong": "Consider: who would benefit from the professor's death? Who would know these secrets firsthand?"
+        "perfect": "Un superviviente. Alguien que soportó sus experimentos, lo recuerda todo y ha esperado décadas para hacer justicia… o venganza.",
+        "correct": "Alguien que sobrevivió al horror y lleva la verdad consigo. Un testigo peligroso con asuntos pendientes.",
+        "close": "Piensa en quién tendría motivos para exponer esto después de tantos años...",
+        "wrong": "Considera: ¿quién se beneficiaría de la muerte del profesor? ¿Quién conocería estos secretos de primera mano?"
       }
     },
     {
       "id": "ch7",
       "type": "story",
-      "text": "A photograph falls from between the pages. Three researchers in lab coats, smiling proudly. But there's a fourth figure in the background—a young patient, staring directly at the camera with hollow eyes. That face... you've seen it recently. On a campaign poster. Mayor Thomas Reed.",
+      "text": "Una fotografía cae de entre las páginas. Tres investigadores con batas blancas, sonriendo con orgullo. Pero hay una cuarta figura al fondo: una joven paciente que mira directamente a la cámara con ojos vacíos. Esa cara… la has visto recientemente. En un cartel de campaña. El alcalde Thomas Reed.",
       "image": "assets/images/lvl2_ch7.jpg",
       "sound": "assets/sounds/tension_high.mp3"
     },
     {
       "id": "ch8",
       "type": "input",
-      "text": "Your phone buzzes. A text from an unknown number: \"You found it. Now you understand. Dr. Marsh is next. Unless you stop me. St. Mary's Hospital. Midnight.\" The sender knows you're here. What is this message—a threat, a confession, or something else entirely?",
+      "text": "Tu teléfono vibra. Un mensaje de un número desconocido: \"Lo encontraste. Ahora entiendes. La Dra. Marsh es la siguiente. A menos que me detengas. Hospital de Santa María. Medianoche.\" El remitente sabe que estás aquí. ¿Qué es este mensaje? ¿Una amenaza, una confesión o algo completamente distinto?",
       "image": "assets/images/lvl2_ch8.jpg",
       "sound": "assets/sounds/tension_high.mp3",
-      "hint_text": "Why reveal your next move to the person hunting you? Perhaps they want to be found, to be witnessed.",
+      "hint_text": "¿Por qué revelar tu próximo movimiento a la persona que te persigue? Tal vez quiera ser encontrado… ser visto.",
       "interaction": {
-        "expected": ["an invitation", "a trap", "a challenge", "a warning"],
-        "semantic_variations": ["a test", "bait", "lure", "setup", "a game", "cat and mouse"],
+        "expected": ["una invitación", "una trampa", "un desafío", "una advertencia"],
+        "semantic_variations": ["una prueba", "un cebo", "una trampa", "un juego", "el gato y el ratón"],
         "keywords": {
-          "main": ["trap", "invitation", "challenge", "warning"],
-          "secondary": ["test", "bait", "game", "lure", "setup"]
+          "main": ["trampa", "invitación", "desafío", "advertencia"],
+          "secondary": ["prueba", "cebo", "juego", "trampa"]
         }
       },
       "feedback": {
-        "perfect": "An invitation—and a challenge. The killer wants you there. They want you to understand before the final act.",
-        "correct": "It's deliberate provocation. Someone wants to be witnessed, to be understood. A dangerous game is being played.",
-        "close": "The message is calculated, purposeful. What does someone gain by revealing their next move?",
-        "wrong": "Think carefully. Why would a killer announce their intentions unless they wanted something from you?"
+        "perfect": "Una invitación… y un desafío. El asesino te quiere allí. Quiere que entiendas antes del acto final.",
+        "correct": "Es una provocación deliberada. Alguien quiere ser visto, ser comprendido. Se está jugando un juego peligroso.",
+        "close": "El mensaje es calculado y con propósito. ¿Qué gana alguien revelando su próximo movimiento?",
+        "wrong": "Piensa con cuidado. ¿Por qué un asesino anunciaría sus intenciones a menos que quiera algo de ti?"
       }
     },
     {
       "id": "ch9",
       "type": "story",
-      "text": "You pocket the documents and climb back into the light. The pieces are coming together: a buried experiment, three guilty researchers, and a survivor who became mayor—all connected by blood and silence. Dr. Helen Marsh still works at St. Mary's. Tonight, the past catches up with the present.",
+      "text": "Guardas los documentos y regresas a la luz. Las piezas empiezan a encajar: un experimento enterrado, tres investigadores culpables y un superviviente que se convirtió en alcalde… todos unidos por sangre y silencio. La Dra. Helen Marsh todavía trabaja en el Hospital de Santa María. Esta noche, el pasado alcanzará al presente.",
       "image": "assets/images/lvl2_ch9.jpg",
       "sound": "assets/sounds/ambient_wind.mp3"
     }
   ],
   
   "ending": {
-    "text": "Beneath the ashes of St. Catherine's, the truth has risen. Project Synthesis was no scientific breakthrough—it was a crime against humanity, buried under official reports and academic prestige. Mayor Reed, Professor Cross, Dr. Marsh, and Dr. Kane—four people bound by guilt and silence for thirty-four years. Now someone is collecting debts paid in blood. The clock ticks toward midnight. Dr. Marsh waits at St. Mary's, unaware that death is coming for her too. Unless you get there first.",
+    "text": "Bajo las cenizas de Santa Catalina, la verdad ha resurgido. El Proyecto Síntesis no fue un avance científico… fue un crimen contra la humanidad, enterrado bajo informes oficiales y prestigio académico. El alcalde Reed, el profesor Cross, la Dra. Marsh y el Dr. Kane: cuatro personas unidas por la culpa y el silencio durante treinta y cuatro años. Ahora alguien está cobrando deudas pagadas con sangre. El reloj avanza hacia la medianoche. La Dra. Marsh espera en Santa María, sin saber que la muerte también viene por ella. A menos que llegues primero.",
     "image": "assets/images/lvl2_end.jpg",
     "sound": "assets/sounds/ending_suspense.mp3"
   }
