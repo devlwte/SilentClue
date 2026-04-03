@@ -24,6 +24,18 @@
       "size_kb": 10,
       "preview_image_url": "https://raw.githubusercontent.com/devlwte/SilentClue/main/assets/images/lvl2_ch1.jpg",
       "download_url": "https://raw.githubusercontent.com/devlwte/SilentClue/main/levels/level2.json"
+    },
+    {
+      "id": "lvl_003",
+      "number": 3,
+      "title": "La Habitación Sin Eco",
+      "genre": "Mystery / Suspense",
+      "description": "Una llamada anónima lleva a la detective Lena Vargas a un antiguo edificio de apartamentos. Lo que encuentra en la habitación 307 desafía toda lógica.",
+      "chapters": 7,
+      "version": 1,
+      "size_kb": 10,
+      "preview_image_url": "https://raw.githubusercontent.com/devlwte/SilentClue/main/assets/images/lvl3_ch1.jpg",
+      "download_url": "https://raw.githubusercontent.com/devlwte/SilentClue/main/levels/level3.json"
     }
   ]
 }
