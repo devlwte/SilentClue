@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "id": "lvl_001",
+      "number": 1,
+      "title": "The Silent Room",
+      "genre": "Mystery / Suspense",
+      "description": "A detective arrives at an abandoned apartment after an anonymous tip. Something terrible happened here.",
+      "chapters": 8,
+      "version": 1,
+      "size_kb": 8,
+      "preview_image_url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/assets/images/lvl1_ch1.jpg",
+      "download_url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/levels/level1.json"
+    },
+    {
+      "id": "lvl_002",
+      "number": 2,
+      "title": "Beneath the Ashes",
+      "genre": "Mystery / Suspense",
+      "description": "The investigation continues. St. Catherine's Church holds secrets buried for decades.",
+      "chapters": 9,
+      "version": 1,
+      "size_kb": 10,
+      "preview_image_url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/assets/images/lvl2_ch1.jpg",
+      "download_url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/levels/level2.json"
+    }
+  ]
+}
