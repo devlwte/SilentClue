@@ -1,115 +1,115 @@
 {
   "id": "lvl_001",
-  "title": "The Silent Room",
+  "title": "La Habitación Silenciosa",
   "genre": "Mystery / Suspense",
-  "description": "A detective arrives at an abandoned apartment after an anonymous tip. Something terrible happened here.",
+  "description": "Un detective llega a un apartamento abandonado tras recibir una pista anónima. Algo terrible ocurrió aquí.",
   
   "chapters": [
     {
       "id": "ch1",
       "type": "story",
-      "text": "The call came at midnight. An anonymous tip about apartment 4B in the old Morrison building. Detective, they said your name specifically. They said only you would understand what happened here.",
+      "text": "La llamada llegó a medianoche. Una pista anónima sobre el apartamento 4B del viejo edificio Morrison. Detective, dijeron tu nombre específicamente. Dijeron que solo tú entenderías lo que pasó aquí.",
       "image": "assets/images/lvl1_ch1.jpg",
       "sound": "assets/sounds/ambient_rain.mp3"
     },
     {
       "id": "ch2",
       "type": "story",
-      "text": "The building looms before you, a relic from another era. Most windows are dark, but apartment 4B... a single light flickers behind the curtains. The front door is unlocked. Someone was expecting you.",
+      "text": "El edificio se alza frente a ti, un relicto de otra época. La mayoría de las ventanas están oscuras, pero en el apartamento 4B… una sola luz parpadea detrás de las cortinas. La puerta principal está sin llave. Alguien te estaba esperando.",
       "image": "assets/images/lvl1_ch2.jpg",
       "sound": "assets/sounds/ambient_rain.mp3"
     },
     {
       "id": "ch3",
       "type": "story",
-      "text": "You climb the creaking stairs to the fourth floor. The hallway stretches before you, lit only by a single dying bulb. Apartment 4B is at the end. The door stands slightly ajar, a thin slice of warm light cutting through the darkness.",
+      "text": "Subes las escaleras que crujen hasta el cuarto piso. El pasillo se extiende ante ti, iluminado solo por una bombilla moribunda. El apartamento 4B está al final. La puerta está ligeramente entreabierta, dejando pasar un delgado rayo de luz cálida a través de la oscuridad.",
       "image": "assets/images/lvl1_ch3.jpg",
       "sound": "assets/sounds/tension_low.mp3"
     },
     {
       "id": "ch4",
       "type": "input",
-      "text": "You push the door open and step inside. The room is frozen in time—furniture overturned, papers scattered everywhere. In the center of the chaos, illuminated by a desk lamp, lies something that stops you cold. What do you see?",
+      "text": "Empujas la puerta y entras. La habitación parece congelada en el tiempo: muebles volcados, papeles esparcidos por todas partes. En el centro del caos, iluminado por una lámpara de escritorio, hay algo que te paraliza. ¿Qué ves?",
       "image": "assets/images/lvl1_ch4.jpg",
       "sound": "assets/sounds/tension_high.mp3",
-      "hint_text": "The stillness in this room is unnatural. Whatever lies at its center hasn't moved in quite some time.",
+      "hint_text": "El silencio en esta habitación es antinatural. Lo que yace en su centro no se ha movido en mucho tiempo.",
       "interaction": {
-        "expected": ["a body", "a dead body", "a corpse"],
-        "semantic_variations": ["someone dead", "a lifeless body", "a victim", "a dead person", "a dead man", "a dead woman", "the body"],
+        "expected": ["un cuerpo", "un cadáver", "una persona muerta"],
+        "semantic_variations": ["alguien muerto", "un cuerpo sin vida", "una víctima", "una persona fallecida", "un hombre muerto", "una mujer muerta", "el cuerpo"],
         "keywords": {
-          "main": ["body", "dead", "corpse"],
-          "secondary": ["victim", "lifeless", "person", "blood"]
+          "main": ["cuerpo", "cadáver", "muerto"],
+          "secondary": ["víctima", "sin vida", "persona", "sangre"]
         }
       },
       "feedback": {
-        "perfect": "Your trained eye immediately recognizes what others might miss. A body lies face-down near the overturned desk. This is now a crime scene.",
-        "correct": "You spot the victim. Your instincts are sharp—this investigation has just begun.",
-        "close": "Something is definitely wrong here. Look more carefully at what lies at the center of this chaos.",
-        "wrong": "The scene demands your full attention. What lies in the center of this disturbed room?"
+        "perfect": "Tu ojo entrenado reconoce inmediatamente lo que otros podrían pasar por alto. Un cuerpo yace boca abajo cerca del escritorio volcado. Esto ya es una escena del crimen.",
+        "correct": "Localizas a la víctima. Tus instintos son afilados… esta investigación acaba de comenzar.",
+        "close": "Definitivamente algo está muy mal aquí. Observa con más atención el centro del caos.",
+        "wrong": "La escena exige toda tu atención. ¿Qué yace en el centro de esta habitación perturbada?"
       }
     },
     {
       "id": "ch5",
       "type": "story",
-      "text": "A man in his fifties, well-dressed but disheveled. Professor Edmund Cross, according to the university ID beside him. No obvious wounds, but his expression... frozen in terror. His hand clutches a torn photograph.",
+      "text": "Un hombre de unos cincuenta años, bien vestido pero desaliñado. Según su identificación universitaria, se trata del profesor Edmund Cross. No tiene heridas visibles, pero su expresión… congelada en terror. Su mano aferra una fotografía rasgada.",
       "image": "assets/images/lvl1_ch5.jpg",
       "sound": "assets/sounds/tension_low.mp3"
     },
     {
       "id": "ch6",
       "type": "input",
-      "text": "You carefully examine the photograph in the professor's grip. It shows three people at what appears to be an academic ceremony. One face has been violently torn away. On the back, written in red ink, are three words. What might they say?",
+      "text": "Examinas con cuidado la fotografía que el profesor sostenía. Muestra a tres personas en lo que parece una ceremonia académica. Una de las caras ha sido violentamente arrancada. En el reverso, escrito con tinta roja, hay tres palabras. ¿Qué podrían decir?",
       "image": "assets/images/lvl1_ch6.jpg",
       "sound": "assets/sounds/tension_high.mp3",
-      "hint_text": "The words feel like an accusation—someone blaming another for holding onto dangerous knowledge.",
+      "hint_text": "Las palabras suenan como una acusación… alguien culpando a otro por guardar un conocimiento peligroso.",
       "interaction": {
-        "expected": ["you knew everything", "you know everything", "i know everything"],
-        "semantic_variations": ["you know", "knew too much", "you knew", "you knew it all", "knew the truth", "you know the truth"],
+        "expected": ["tú lo sabías todo", "sabías todo", "yo lo sé todo"],
+        "semantic_variations": ["tú sabes", "sabías demasiado", "tú sabías", "lo sabías todo", "sabías la verdad", "tú conoces la verdad"],
         "keywords": {
-          "main": ["knew", "know", "everything", "truth"],
-          "secondary": ["secret", "liar", "betrayed", "remember"]
+          "main": ["sabías", "sabes", "todo", "verdad"],
+          "secondary": ["secreto", "mentiroso", "traicionado", "recuerda"]
         }
       },
       "feedback": {
-        "perfect": "\"YOU KNEW EVERYTHING.\" The accusation burns in red ink. Someone blamed the professor for keeping secrets—deadly secrets.",
-        "correct": "The message speaks of knowledge and accusation. Someone held the professor responsible for what he knew.",
-        "close": "The words carry weight and accusation. Think about what someone might say to a person they blame...",
-        "wrong": "The message is personal, accusatory. What would someone write to a person they hold responsible?"
+        "perfect": "\"TÚ LO SABÍAS TODO.\" La acusación arde en tinta roja. Alguien culpaba al profesor por guardar secretos… secretos mortales.",
+        "correct": "El mensaje habla de conocimiento y acusación. Alguien hacía responsable al profesor por lo que sabía.",
+        "close": "Las palabras tienen peso y acusación. Piensa en qué le diría alguien a una persona a la que culpa...",
+        "wrong": "El mensaje es personal y acusatorio. ¿Qué escribiría alguien a una persona a la que considera responsable?"
       }
     },
     {
       "id": "ch7",
       "type": "story",
-      "text": "You notice the professor's desk. Unlike the rest of the room, it seems deliberately arranged. A single drawer hangs open, empty except for a brass key and a newspaper clipping from 1987: \"University Research Team Makes Breakthrough Discovery.\" The article mentions three names.",
+      "text": "Notas el escritorio del profesor. A diferencia del resto de la habitación, parece deliberadamente ordenado. Un cajón está entreabierto, vacío salvo por una llave de latón y un recorte de periódico de 1987: \"Equipo de investigación universitaria hace descubrimiento innovador\". El artículo menciona tres nombres.",
       "image": "assets/images/lvl1_ch7.jpg",
       "sound": "assets/sounds/ambient_dark.mp3"
     },
     {
       "id": "ch8",
       "type": "input",
-      "text": "The brass key is old, ornate—clearly not for any modern lock. Engraved on its head is a symbol you recognize from your own past: the emblem of St. Catherine's Church, abandoned since the fire of 1992. Where do you think this key leads?",
+      "text": "La llave de latón es antigua y ornamentada, claramente no sirve para ninguna cerradura moderna. Grabado en su cabeza hay un símbolo que reconoces de tu propio pasado: el emblema de la Iglesia de Santa Catalina, abandonada desde el incendio de 1992. ¿Dónde crees que conduce esta llave?",
       "image": "assets/images/lvl1_ch8.jpg",
       "sound": "assets/sounds/tension_low.mp3",
-      "hint_text": "The engraving tells you exactly where this key belongs—a sacred place that burned long ago.",
+      "hint_text": "El grabado te dice exactamente a dónde pertenece esta llave: un lugar sagrado que ardió hace mucho tiempo.",
       "interaction": {
-        "expected": ["the church", "st catherines", "st catherines church", "the old church", "saint catherines"],
-        "semantic_variations": ["abandoned church", "church basement", "church crypt", "st catherine", "cathedral", "chapel"],
+        "expected": ["la iglesia", "santa catalina", "iglesia de santa catalina", "la iglesia abandonada"],
+        "semantic_variations": ["iglesia abandonada", "sótano de la iglesia", "cripta de la iglesia", "santa catalina", "capilla"],
         "keywords": {
-          "main": ["church", "catherine", "chapel"],
-          "secondary": ["basement", "crypt", "vault", "sanctuary", "abandoned"]
+          "main": ["iglesia", "catalina", "capilla"],
+          "secondary": ["sótano", "cripta", "abandonada"]
         }
       },
       "feedback": {
-        "perfect": "St. Catherine's. The burned church on Elm Street. Whatever the professor discovered, its secrets are buried there.",
-        "correct": "A church, yes. The key's origin points to a place of supposed sanctuary that may hold darker truths.",
-        "close": "The symbol guides you toward a place of worship. But which one, and what waits there?",
-        "wrong": "Look at the symbol again. It speaks of a sacred place, long abandoned..."
+        "perfect": "Santa Catalina. La iglesia quemada en Elm Street. Sea lo que sea que descubrió el profesor, sus secretos están enterrados allí.",
+        "correct": "Una iglesia, sí. El origen de la llave apunta a un lugar que se suponía era de santuario, pero que podría guardar verdades más oscuras.",
+        "close": "El símbolo te guía hacia un lugar de culto. Pero ¿cuál y qué te espera allí?",
+        "wrong": "Mira el símbolo nuevamente. Habla de un lugar sagrado, abandonado hace mucho tiempo..."
       }
     }
   ],
   
   "ending": {
-    "text": "The Silent Room has given up its first secrets, but the mystery deepens. Professor Cross died clutching evidence of a conspiracy decades old. The key to St. Catherine's burns in your pocket. Three people in a photograph—one erased, one dead, and one... still out there. The truth lies buried beneath burned timbers and forgotten sins. Your investigation is just beginning.",
+    "text": "La Habitación Silenciosa ha revelado sus primeros secretos, pero el misterio se profundiza. El profesor Cross murió aferrando evidencia de una conspiración de décadas. La llave de Santa Catalina quema en tu bolsillo. Tres personas en una fotografía: una borrada, una muerta y una… aún ahí afuera. La verdad yace enterrada bajo maderas quemadas y pecados olvidados. Tu investigación apenas está comenzando.",
     "image": "assets/images/lvl1_end.jpg",
     "sound": "assets/sounds/ending_suspense.mp3"
   }
