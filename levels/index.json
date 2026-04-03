@@ -36,6 +36,18 @@
       "size_kb": 10,
       "preview_image_url": "https://raw.githubusercontent.com/devlwte/SilentClue/main/assets/images/lvl3_ch1.jpg",
       "download_url": "https://raw.githubusercontent.com/devlwte/SilentClue/main/levels/level3.json"
+    },
+    {
+      "id": "lvl_004",
+      "number": 4,
+      "title": "El Último Acto",
+      "genre": "Mystery / Suspense",
+      "description": "Una antigua carta llega al teatro abandonado 'Gran Imperial'. Alguien invita a la detective Lena Vargas a presenciar la última función... de una obra que terminó hace 27 años.",
+      "chapters": 7,
+      "version": 1,
+      "size_kb": 10,
+      "preview_image_url": "https://raw.githubusercontent.com/devlwte/SilentClue/main/assets/images/lvl3_ch1.jpg",
+      "download_url": "https://raw.githubusercontent.com/devlwte/SilentClue/main/levels/level3.json"
     }
   ]
 }
