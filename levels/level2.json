@@ -1,0 +1,123 @@
+{
+  "id": "lvl_002",
+  "title": "Beneath the Ashes",
+  "genre": "Mystery / Suspense",
+  "description": "The investigation continues. St. Catherine's Church holds secrets buried for decades. What really happened the night of the fire?",
+  
+  "chapters": [
+    {
+      "id": "ch1",
+      "type": "story",
+      "text": "Dawn breaks over Millbrook as you stand before the ruins of St. Catherine's Church. Thirty-four years ago, a fire consumed this place. Three people died. The official report said electrical failure. But Professor Cross knew the truth—and it killed him.",
+      "image": "assets/images/lvl2_ch1.jpg",
+      "sound": "assets/sounds/ambient_wind.mp3"
+    },
+    {
+      "id": "ch2",
+      "type": "story",
+      "text": "The brass key feels heavy in your hand. The main entrance is sealed with modern locks, but you remember the old groundskeeper's entrance on the north side. Overgrown with ivy, forgotten by time. The key slides in perfectly.",
+      "image": "assets/images/lvl2_ch2.jpg",
+      "sound": "assets/sounds/ambient_wind.mp3"
+    },
+    {
+      "id": "ch3",
+      "type": "input",
+      "text": "Inside, the air is thick with dust and memory. Shafts of morning light pierce through gaps in the collapsed roof. The altar still stands, blackened but defiant. Beneath it, you notice the stone floor has been disturbed recently. Fresh scratches mark the tiles. What do you think lies beneath?",
+      "image": "assets/images/lvl2_ch3.jpg",
+      "sound": "assets/sounds/tension_low.mp3",
+      "hint_text": "Old churches often have more than one level. The scratches suggest someone has been accessing something concealed.",
+      "interaction": {
+        "expected": ["a hidden passage", "a secret room", "a basement", "stairs", "a tunnel"],
+        "semantic_variations": ["hidden door", "secret passage", "underground room", "cellar", "crypt", "underground passage", "a trapdoor", "secret entrance"],
+        "keywords": {
+          "main": ["hidden", "secret", "passage", "underground", "basement"],
+          "secondary": ["door", "stairs", "tunnel", "crypt", "cellar", "trapdoor"]
+        }
+      },
+      "feedback": {
+        "perfect": "Your instincts serve you well. Beneath the altar lies a concealed entrance—a passage that the fire couldn't reach.",
+        "correct": "Something lies beneath this sacred ground. The scratches tell of recent visitors to a place meant to stay buried.",
+        "close": "You sense there's more to this floor than meets the eye. Think about what churches often hide...",
+        "wrong": "The scratches are deliberate, purposeful. Someone has been moving these stones to reach something below."
+      }
+    },
+    {
+      "id": "ch4",
+      "type": "story",
+      "text": "You shift the altar stone to reveal worn steps descending into darkness. Your flashlight cuts through decades of shadow. The underground chamber is remarkably preserved—file cabinets line the walls, and a long table sits in the center, covered in documents.",
+      "image": "assets/images/lvl2_ch4.jpg",
+      "sound": "assets/sounds/ambient_dark.mp3"
+    },
+    {
+      "id": "ch5",
+      "type": "story",
+      "text": "The documents tell a disturbing story. Project Synthesis—a university research initiative from 1985. Professor Cross, Dr. Helen Marsh, and Dr. Victor Kane. Human trials. Experimental treatments. And subjects who never returned to their families.",
+      "image": "assets/images/lvl2_ch5.jpg",
+      "sound": "assets/sounds/tension_high.mp3"
+    },
+    {
+      "id": "ch6",
+      "type": "input",
+      "text": "Among the papers, you find a patient list. Twenty-three names, all crossed out except one. The final entry is circled in red, with a note: \"Subject survived. Memory intact. CONTAIN.\" The name is familiar—someone still living in Millbrook. Who might survive such experiments and still be among us?",
+      "image": "assets/images/lvl2_ch6.jpg",
+      "sound": "assets/sounds/tension_high.mp3",
+      "hint_text": "Someone who lived through the horror now walks among us. What would drive a person who remembers everything?",
+      "interaction": {
+        "expected": ["a witness", "a survivor", "the killer", "someone seeking revenge"],
+        "semantic_variations": ["a victim", "test subject", "patient", "someone who remembers", "person seeking justice", "avenger"],
+        "keywords": {
+          "main": ["survivor", "witness", "victim", "revenge"],
+          "secondary": ["patient", "subject", "killer", "avenger", "remembers"]
+        }
+      },
+      "feedback": {
+        "perfect": "A survivor. Someone who endured their experiments, remembered everything, and waited decades for justice. Or revenge.",
+        "correct": "Someone who lived through the horror and carries the truth. A dangerous witness with unfinished business.",
+        "close": "Think about who would have motivation to expose this after all these years...",
+        "wrong": "Consider: who would benefit from the professor's death? Who would know these secrets firsthand?"
+      }
+    },
+    {
+      "id": "ch7",
+      "type": "story",
+      "text": "A photograph falls from between the pages. Three researchers in lab coats, smiling proudly. But there's a fourth figure in the background—a young patient, staring directly at the camera with hollow eyes. That face... you've seen it recently. On a campaign poster. Mayor Thomas Reed.",
+      "image": "assets/images/lvl2_ch7.jpg",
+      "sound": "assets/sounds/tension_high.mp3"
+    },
+    {
+      "id": "ch8",
+      "type": "input",
+      "text": "Your phone buzzes. A text from an unknown number: \"You found it. Now you understand. Dr. Marsh is next. Unless you stop me. St. Mary's Hospital. Midnight.\" The sender knows you're here. What is this message—a threat, a confession, or something else entirely?",
+      "image": "assets/images/lvl2_ch8.jpg",
+      "sound": "assets/sounds/tension_high.mp3",
+      "hint_text": "Why reveal your next move to the person hunting you? Perhaps they want to be found, to be witnessed.",
+      "interaction": {
+        "expected": ["an invitation", "a trap", "a challenge", "a warning"],
+        "semantic_variations": ["a test", "bait", "lure", "setup", "a game", "cat and mouse"],
+        "keywords": {
+          "main": ["trap", "invitation", "challenge", "warning"],
+          "secondary": ["test", "bait", "game", "lure", "setup"]
+        }
+      },
+      "feedback": {
+        "perfect": "An invitation—and a challenge. The killer wants you there. They want you to understand before the final act.",
+        "correct": "It's deliberate provocation. Someone wants to be witnessed, to be understood. A dangerous game is being played.",
+        "close": "The message is calculated, purposeful. What does someone gain by revealing their next move?",
+        "wrong": "Think carefully. Why would a killer announce their intentions unless they wanted something from you?"
+      }
+    },
+    {
+      "id": "ch9",
+      "type": "story",
+      "text": "You pocket the documents and climb back into the light. The pieces are coming together: a buried experiment, three guilty researchers, and a survivor who became mayor—all connected by blood and silence. Dr. Helen Marsh still works at St. Mary's. Tonight, the past catches up with the present.",
+      "image": "assets/images/lvl2_ch9.jpg",
+      "sound": "assets/sounds/ambient_wind.mp3"
+    }
+  ],
+  
+  "ending": {
+    "text": "Beneath the ashes of St. Catherine's, the truth has risen. Project Synthesis was no scientific breakthrough—it was a crime against humanity, buried under official reports and academic prestige. Mayor Reed, Professor Cross, Dr. Marsh, and Dr. Kane—four people bound by guilt and silence for thirty-four years. Now someone is collecting debts paid in blood. The clock ticks toward midnight. Dr. Marsh waits at St. Mary's, unaware that death is coming for her too. Unless you get there first.",
+    "image": "assets/images/lvl2_end.jpg",
+    "sound": "assets/sounds/ending_suspense.mp3"
+  }
+}
